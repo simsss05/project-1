@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(233, 215, 207);
+  text-align: center;
+  color: rgb(83, 75, 75);
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Owsald", sans-serif;
+  /* 풀백 폰트란? 첫 번째 폰트가 서버나 오프라인 상태 등의 이유로 해당 글꼴을 불러오는데 실패하면
+  브라우저는 오른쪽 글꼴로 이동하는데 이러한 것을 풀백 폰트라고 한다. */
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
+  /* sans-serif는 기본 글꼴이다. */
+}
+
+a {
+  font-family: "Fira Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(167, 1, 78);
+}
+
+a:hover {
+  text-decoration: underline;
+}
